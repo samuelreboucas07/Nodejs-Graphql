@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-graphql",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de API simples integrando Nodejs e Graphql",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelreboucas07/Nodejs-Graphql.git"
+  },
+  "author": "Samuel Rebouças de Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelreboucas07/Nodejs-Graphql/issues"
+  },
+  "homepage": "https://github.com/samuelreboucas07/Nodejs-Graphql#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.12.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
